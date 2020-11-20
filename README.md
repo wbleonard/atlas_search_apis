@@ -1,6 +1,6 @@
 # Atlas Search Index API Examples
 
-This respository contains examples of how to get, create and delete [Atlas Search](https://docs.atlas.mongodb.com/atlas-search/) indexes using the [API](https://docs.atlas.mongodb.com/api/). It uses [dotenv](https://www.npmjs.com/package/dotenv) to load the API credentials and  [digest_fetch](https://www.npmjs.com/package/digest-fetch) to make the API calls.
+This respository contains examples of how to get, create and delete [Atlas Search](https://docs.atlas.mongodb.com/atlas-search/) indexes using the [API](https://docs.atlas.mongodb.com/reference/api/atlas-search/). It uses [dotenv](https://www.npmjs.com/package/dotenv) to load the API credentials and  [digest_fetch](https://www.npmjs.com/package/digest-fetch) to make the API calls.
 
 ## Usage
 
