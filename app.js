@@ -12,8 +12,8 @@ const client = new DigestFetch(
   {}
 );
 
-project_id = "5e8f8268d896f55ac04969a1";
-cluster_name = "SA-SHARED-DEMO";
+project_id = process.env.PROJECT_ID;
+cluster_name = process.env.CLUSTER_NAME;
 
 const urlbase = "https://cloud.mongodb.com/api/atlas/v1.0/";
 

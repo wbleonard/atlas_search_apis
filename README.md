@@ -12,11 +12,14 @@ Configure [Atlas Programmatic API Keys](https://docs.atlas.mongodb.com/configure
 
 `mv .env.example .env`
 
-Update `env` with your user and key values:
+Update `env` with your public key, private key, [project ID](https://docs.atlas.mongodb.com/tutorial/manage-project-settings/),and name of the cluster that will host the index:
 
 ```zsh
-  ATLAS_USER = "<ATLAS_PUBLIC_KEY>"
-  ATLAS_USER_KEY = "<ATLAS_PRIVATE_KEY>"
+ATLAS_USER = "<ATLAS_PUBLIC_KEY>"
+ATLAS_USER_KEY = "<ATLAS_PRIVATE_KEY>"
+
+PROJECT_ID = "<ATLAS_PROJECT_ID>"
+CLUSTER_NAME = "<ATLAS_CLUSTER_NAME>"
 ```
 By default, the example code creates an index on the `sample_analytics.customer` collection:
 
