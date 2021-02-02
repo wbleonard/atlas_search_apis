@@ -60,4 +60,4 @@ getSearchIndex("sample_analytics", "customers").then((results) => {
   "name": "default"
  }
 ]
-```
+```# mongodb_patterns
